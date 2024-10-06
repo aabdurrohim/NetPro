@@ -1,1 +1,9 @@
 Chat Server implementation that uses I/O multiplexing technique with select() function. This code allows the server to handle multiple client connections at once without having to create a new thread or process for each client. Here is a more detailed explanation:
+
+
+to compile the code
+
+```bash
+gcc -o chat_server chat_server.c
+```
+
